@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "spearmacro",
+  "version": "1.0.0",
+  "name": "Spear Macro",
+  "description": "Speer/Windcharge-Macro und Auto-Totem mit Ingame-Menue (Right Shift).",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.spearmacro.SpearMacroMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "fabric-api": "*"
+  }
+}
